@@ -1,23 +1,23 @@
 package com.gera.ticket.domain.model;
 
 public class PermissionRole {
-    private final int idPermissionRole;
-    private final int idPermission;
-    private final int idRole;
+    private final Integer idPermissionRole;
+    private final Integer idPermission;
+    private final Integer idRole;
 
-    public PermissionRole(int idPermissionRole, int idPermission, int idRole) {
+    public PermissionRole(Integer idPermissionRole, Integer idPermission, Integer idRole) {
         this.idPermissionRole = idPermissionRole;
         this.idPermission = idPermission;
         this.idRole = idRole;
     }
 
-    public int getIdPermissionRole() {
+    public Integer getIdPermissionRole() {
         return this.idPermissionRole;
     };
-    public int getIdPermission() {
+    public Integer getIdPermission() {
         return this.idPermission;
     };
-    public int getIdRole() {
+    public Integer getIdRole() {
         return this.idRole;
     };
 
